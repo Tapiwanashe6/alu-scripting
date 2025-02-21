@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-""" top_ten.py """
+""" top_ten.py
+This module fetches the titles of the first 10 hot posts from a given subreddit.
+
+Usage:
+    top_ten(subreddit): Prints the titles of the first 10 hot posts in the specified subreddit.
+"""
+
 import requests
 
 
